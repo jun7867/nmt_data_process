@@ -66,7 +66,7 @@ python make_vocabulary.py --input /nmt/data/train.en --output /nmt/data/vocab.en
 (한국어 음절단위는 사전크기가 크지 않기때문에 size값을 0으로 함)
 
 
-## 3. Devset 생성하는 법
+## 3. Dev set 생성하는 법
 
 train set의 첫 2000 라인을 dev set으로 분리하는 법
 ```
