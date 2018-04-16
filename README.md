@@ -50,7 +50,7 @@ python korean_char.py --input /nmt/data/train.ko --output /nmt/data/train.char.k
 cd scripts/
 ```
 ```
-./tokenize.sh ko /nmt/data/train
+./tokenize.sh ko /nmt/data/train.char
 ```
 영어 전처리 과정과 기본적으로 같지만 normalization + tokenization을 segmentation 후에 함
 
