@@ -30,7 +30,7 @@ train.bpe.en 파일이 생성되고 학습 파일로 사용
   * --size: 사전크기 제한 (0은 제한없음)
   
 ```
-python make_vocabulary.py --input /nmt/data/train.en --output /nmt/data/vocab.en --size 30000
+python make_vocabulary.py --input /nmt/data/train.bpe.en --output /nmt/data/vocab.en --size 30000
 ```
 
 ## 2. 한국어 전처리
