@@ -61,7 +61,7 @@ cd scripts/
   * --size: 사전크기 제한 (0은 제한없음)
   
 ```
-python make_vocabulary.py --input /nmt/data/train.en --output /nmt/data/vocab.en --size 0
+python make_vocabulary.py --input /nmt/data/train.char.tok.ko --output /nmt/data/vocab.ko --size 0
 ```
 (한국어 음절단위는 사전크기가 크지 않기때문에 size값을 0으로 함)
 
