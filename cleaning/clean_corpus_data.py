@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
     filtered_set = sorted(set(line_nums))
     print(filtered_set)
-    print "total %d filtered !" % len(filtered_set)
+    print("total %d filtered !" % len(filtered_set))
 
     for i, (ko_line, en_line) in enumerate(zip(ko_sents, en_sents)):
         if i in filtered_set:
